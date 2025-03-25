@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Aparna Kella</title>
+     <style>
+         body {
+             font-family: Arial, sans-serif;
+             margin: 0;
+             padding: 0;
+             background-color: #f3d9d9;
+         }
+         header {
+             background-color: #FFB6C1;
+             color: white;
+             text-align: center;
+             padding: 50px 0;
+         }
+         header h1 {
+             margin: 0;
+             font-size: 40px;
+         }
+         header p {
+             font-size: 20px;
+         }
+         nav {
+             display: flex;
+             justify-content: center;
+             background-color: #dcb4dd;
+             padding: 10px 0;
+         }
+         nav a {
+             color: white;
+             text-decoration: none;
+             margin: 0 20px;
+             font-weight: bold;
+             font-size: 18px;
+         }
+         nav a:hover {
+             color: #dda2f5;
+         }
+         section {
+             padding: 50px 20px;
+             text-align: center;
+         }
+         section h2 {
+             font-size: 30px;
+             margin-bottom: 20px;
+         }
+         .skills-list, .projects-container {
+             display: flex;
+             justify-content: center;
+             flex-wrap: wrap;
+             gap: 20px;
+         }
+         .skill-item, .project-item {
+             background-color: #fff6e6;
+             box-shadow: 0 0 10px #B3D9FF;
+             padding: 20px;
+             width: 250px;
+             text-align: center;
+             border-radius: 8px;
+             transition: transform 0.3s ease;
+         }
+         .skill-item:hover, .project-item:hover {
+             transform: scale(1.05);
+         }
+         .project-item a {
+             display: inline-block;
+             background-color: #f89bca;
+             color: white;
+             padding: 10px 20px;
+             text-decoration: none;
+             border-radius: 5px;
+             margin-top: 10px;
+         }
+         .project-item a:hover {
+             background-color: #ecaf9c;
+         }
+         footer {
+             background-color: #e9a9a9;
+             color: white;
+             text-align: center;
+             padding: 20px 0;
+         }
+         footer p {
+             margin: 0;
+         }
+ 
+         /* Updated styles for centering the contact section */
+         #contact {
+             padding: 50px 20px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             text-align: center;
+             gap: 20px;
+         }
+ 
+         .project-item {
+             background-color: #fff6e6;
+             box-shadow: 0 0 10px #B3D9FF;
+             padding: 20px;
+             width: 250px;
+             text-align: center;
+             border-radius: 8px;
+             transition: transform 0.3s ease;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+         }
+ 
+         .project-item:hover {
+             transform: scale(1.05);
+         }
+ 
+         .project-item a {
+             display: inline-block;
+             background-color: #f89bca;
+             color: white;
+             padding: 10px 20px;
+             text-decoration: none;
+             border-radius: 5px;
+             margin-top: 10px;
+         }
+ 
+         .project-item a:hover {
+             background-color: #ecaf9c;
+         }
+     </style>
+ </head>
+ <body>
+     <header>
+         <h1>Aparnakella</h1>
+         <p>Web Developer | Designer | Creator</p>
+     </header>
+     
+     <nav>
+         <a href="#about">About Me</a>
+         <a href="#skills">Skills</a>
+         <a href="#projects">Projects</a>
+         <a href="#contact">Contact</a>
+     </nav>
+ 
+     <!-- About Me Section -->
+     <section id="about">
+         <h2>About Me</h2>
+         <p>Hello, I'm Aparna Kella, a passionate web developer with a love for creating beautiful and functional websites. I specialize in front-end development and design, aiming to make user-friendly interfaces that are also visually appealing.</p>
+     </section>
+ 
+     <!-- Education Section -->
+     <section id="skills">
+         <h2>Education</h2>
+         <div class="skills-list">
+             <div class="skill-item">
+                 <h3>B.Tech</h3>
+                 <p>Sasi Institute of Technology and Engineering</p>
+                 <p>2023-2027</p>
+                 <p>CGPA: 7.8</p>
+             </div>
+             <div class="skill-item">
+                 <h3>Intermediate</h3>
+                 <p>Senior Secondary School</p>
+                 <p>2021-2023</p>
+                 <p>Marks: 456/600</p>
+             </div>
+             <div class="skill-item">
+                 <h3>SSC</h3>
+                 <p>St. Theresa Girls High School</p>
+                 <p>2021</p>
+                 <p>Marks: 513</p>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Skills Section -->
+     <section id="skills">
+         <h2>Skills</h2>
+         <div class="skills-list">
+             <div class="skill-item">
+                 <h3>HTML</h3>
+                 <p>Experienced with structuring webpages with semantic HTML.</p>
+             </div>
+             <div class="skill-item">
+                 <h3>CSS</h3>
+                 <p>Skilled in designing responsive and accessible layouts with CSS.</p>
+             </div>
+             <div class="skill-item">
+                 <h3>C</h3>
+                 <p>Focusing on low-level memory management, performance, and system-level functionality.</p>
+             </div>
+             <div class="skill-item">
+                 <h3>Python</h3>
+                 <p>Skilled in designing efficient and maintainable code with Python, focusing on functionality, performance, and readability.</p>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Projects Section -->
+     <section id="projects">
+         <h2>Projects</h2>
+         <div class="projects-container">
+             <div class="project-item">
+                 <h3>Portfolio</h3>
+                 <p>A fully responsive and creative student webpage using HTML and CSS. Designed and developed to showcase my skills and projects in a visually appealing way.</p>
+                 <a href="#" target="_blank">View Project</a>
+             </div>
+             <div class="project-item">
+                 <h3>Calculator</h3>
+                 <p>A simple and interactive calculator built with HTML, CSS, and JavaScript. Performs basic arithmetic operations, including addition, subtraction, multiplication, division, and modulus.</p>
+                 <a href="https://aparnakella.github.io/caluculator" target="_blank">View Project</a>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Contact Section -->
+     <section id="contact">
+         <h2>Contact</h2>
+         <div class="project-item">
+             <h3>Phone Number</h3>
+             <p>9550529297</p>
+         </div>
+         <div class="project-item">
+             <h3>Email</h3>
+             <a href="mailto:aparna.kella@sasi.ac.in">aparna.kella@sasi.ac.in</a>
+         </div>
+         <div class="project-item">
+             <h3>GitHub</h3>
+             <p><a href="https://github.com/aparnakella" target="_blank">GitHub</a></p>
+         </div>
+         <div class="project-item">
+             <h3>LinkedIn</h3>
+             <p><a href="https://www.linkedin.com/in/aparna-kella-00176029b/" target="_blank">LinkedIn</a></p>
+         </div>
+     </section>
+ 
+     <!-- Footer -->
+     <footer>
+         <p>&copy; 2025 Aparna. All rights reserved.</p>
+     </footer>
+ </body>
+ </html>
